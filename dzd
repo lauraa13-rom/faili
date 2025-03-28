@@ -43,6 +43,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
             document.getElementById("rezultats").innerText = "Līdz svētkiem atlikušas " + daysLeft + " dienas!";
         }
     </script>
+<p> dienas :))</p>
 
   
 </form>
