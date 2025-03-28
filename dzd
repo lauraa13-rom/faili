@@ -26,5 +26,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 <p>Līdz svetkiem atlikušas</p>
  <label for="dienas">dienas</label><br>
   <input type="text" id="dienas" name="dienas">
+<p>dienas : ))</p>
+</form>
+</body>
+</html>
 
   
