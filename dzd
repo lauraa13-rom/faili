@@ -21,11 +21,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
   <input type="text" id="menesis" name="menesis"><br>
  <label for="diena">Diena</label><br>
   <input type="text" id="diena" name="diena">
-<button type="button" onclick="dienas()" >Aprēķināt dienu skaitu līdz dzimšanas dienai</button>
+<button type="button" onclick="Dienas()" >Aprēķināt dienu skaitu līdz dzimšanas dienai</button>
 </form>
-<p id="rezultats">Līdz svetkiem atlikušas:</p>
+<p id="rezultats">Līdz svetkiem atlikušas: </p>
 <script>
-        function dienas() {
+        function Dienas() {
             let today = new Date();
             let gads = parseInt(document.getElementById("gads").value);
             let menesis = parseInt(document.getElementById("menesis").value) - 1;
@@ -43,10 +43,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
             document.getElementById("rezultats").innerText = "Līdz svētkiem atlikušas " + daysLeft + " dienas!";
         }
     </script>
-<p> dienas :))</p>
 
   
-</form>
+
 </body>
 </html>
 
