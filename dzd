@@ -21,7 +21,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
   <input type="text" id="menesis" name="menesis"><br>
  <label for="diena">Diena</label><br>
   <input type="text" id="diena" name="diena">
-<button type="button" onclick="dienas() >Aprēķināt dienu skaitu līdz dzimšanas dienai</button>
+<button type="button" onclick="dienas()" >Aprēķināt dienu skaitu līdz dzimšanas dienai</button>
 </form>
 <p id="rezultats">Līdz svetkiem atlikušas:</p>
 <script>
