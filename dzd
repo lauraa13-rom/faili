@@ -8,27 +8,17 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     <head>
         
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="style.css" type="text/css"/>
+       <title>Gaidot dzimšanas dienu</title>
 </head>
 <body>
 <h1> Gaidot dzimšanas dienu <h1>
 <hr>
-<form>
- <form>
-        
-       
-        
-    
-    <p id="rezultats">Līdz svētkiem atlikušas: </p>   
-    
-    
+<form>    
 <p> Ievadi pilnu datumu, kad Tev būs tuvākā dzimšanas diena</p>
 <label for="gads">Gads:</label><br>
   <input type="text" id="gads" name="gads"><br>
   <label for="menesis">Mēnesis:</label><br>
-  <input type="text" id="menesis" name="menesis">
+  <input type="text" id="menesis" name="menesis"><br>
  <label for="diena">Diena</label><br>
   <input type="text" id="diena" name="diena">
 <button type="button" onclick="dienas() >Aprēķināt dienu skaitu līdz dzimšanas dienai</button>
@@ -55,7 +45,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     </script>
 
   
-<p>dienas : ))</p>
 </form>
 </body>
 </html>
