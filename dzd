@@ -15,4 +15,16 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 <h1> Gaidot dzimšanas dienu <h1>
 <hr>
 <form>
+<p> Ievadi pilnu datumu, kad Tev būs tuvākā dzimšanas diena</p>
+<label for="gads">Gads:</label><br>
+  <input type="text" id="gads" name="gads"><br>
+  <label for="menesis">Mēnesis</label><br>
+  <input type="text" id="menesis" name="menesis">
+ <label for="diena">Diena</label><br>
+  <input type="text" id="diena" name="diena">
+<button type="submit" form="poga" value="Aprēķināt dienu skaitu līdz dzimšanas dienai">Aprēķināt dienu skaitu līdz dzimšanas dienai</button>
+<p>Līdz svetkiem atlikušas</p>
+ <label for="dienas">dienas</label><br>
+  <input type="text" id="dienas" name="dienas">
+
   
