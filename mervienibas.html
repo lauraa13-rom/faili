@@ -14,12 +14,34 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         bac
 </head>
 <body>
+    <h1>Informācijas daudzuma mērvienības </h1>
+    <div class="w3-container w3-green">
     <form> 
         
   <input type="text" id="gigab" name="gigab" ><br>
          <label for="gigab">GB=</label><br>
-  <button type="button" onclick="MB()" >Izteikt magabaitos</button>
-        <button type="button" onclick="Dienas()" >Izteikt mibibaitos</button>
+  <button type="button" onclick="izteiktMB()" >Izteikt magabaitos</button><input type="text" id="MB" readonly> MB
+        <button type="button" onclick="izteiktMIB()" >Izteikt mibibaitos</button><input type="text" id="MIB" readonly> MB
   
 </form>
+        <script>
+         function izteiktMB() {
+        let gigab= parseFloat( document.getElementById("gigab"). value);  
+             let MB = gigab *1024;
+             document.gerElementById("MB"). value = MB;
+         }
+        </script>
+        function izteiktMIB() {
+        let gigab= parseFloat( document.getElementById("gigab"). value);  
+             let MIB = gigab *953.67431;
+             document.gerElementById("MIB"). value = MIB;
+         }
+    </script >
+
+    </div><
+    <body>
+    </html>
+        
+        
+        
   
